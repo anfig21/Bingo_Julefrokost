@@ -1,0 +1,73 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="3253230539" file="/Users/antonio/Desktop/Bingo/bingoApp.prj" location="/Users/antonio/Desktop/Bingo" name="bingoApp" target="target.mlapps" target-name="Package App">
+    <param.appname>bingoApp</param.appname>
+    <param.authnamewatermark>Antonio Figueroa</param.authnamewatermark>
+    <param.email>anfig@dtu.dk</param.email>
+    <param.company>Acoustic Technology Group</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot>/private/var/folders/mq/38wtskys1v7d30lzy21xd30w0000gn/T/tp1ab57c1f_606b_476a_9bf2_4f9433f92148.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>/Users/antonio/Desktop</param.output>
+    <param.guid>9e59a07e-8bb3-403b-a0ba-f5c8dbde972b</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/bingoApp.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}/Black_RGB_000.png</file>
+      <file>${PROJECT_ROOT}/images.jpeg</file>
+    </fileset.depfun>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}/bingo.txt</file>
+      <file>${PROJECT_ROOT}/historic.mlapp</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="/Users/antonio" name="Desktop" optional="false">/Users/antonio/Desktop</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2022b.app</root>
+      <toolboxes>
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>12.6</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
